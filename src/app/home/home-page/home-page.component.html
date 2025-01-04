@@ -1,0 +1,43 @@
+<div class="sidenav-container">
+  <!-- Botón para abrir el sidenav en pantallas pequeñas -->
+  <button class="sidenav-toggle" (click)="toggleSidenav()">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Sidenav -->
+  <div class="sidenav" [class.open]="isSidenavOpen">
+    <div class="profile-section">
+      <img src="perfil.jpg" alt="Profile Picture" class="profile-picture" />
+      <h2>Diego Pincha</h2>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/diego-fernando-pincha-lema-b41a54215" target="_blank" class="social-btn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/DiegoPinch" target="_blank" class="social-btn">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/diegopincha_/" target="_blank" class="social-btn">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://skype.com" target="_blank" class="social-btn">
+          <i class="fab fa-skype"></i>
+        </a>
+        <a href="https://wa.me/593991586128" target="_blank" class="social-btn">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a [routerLink]="item.link" (click)="closeSidenav()">
+          <i class="{{ item.icon }}"></i>
+          {{ item.label }}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

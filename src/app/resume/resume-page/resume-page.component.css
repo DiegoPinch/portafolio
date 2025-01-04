@@ -1,0 +1,102 @@
+.resume-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  .resume-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .resume-header h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .header-underline {
+    width: 80px;
+    height: 4px;
+    background-color: #2e609d; 
+    margin-top: 5px;
+  }
+  
+  .resume-description {
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .resume-section h2 {
+    font-size: 1.5rem;
+    color: #2e609d;
+    margin-bottom: 20px;
+  }
+  
+  .resume-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .resume-item {
+    padding: 15px;
+    border-left: 4px solid #2e609d;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .resume-period {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .resume-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 20px;
+    }
+  
+    .resume-header h1 {
+      font-size: 2rem;
+    }
+  
+    .resume-description {
+      font-size: 1rem;
+    }
+  
+    .resume-section h2 {
+      font-size: 1.3rem;
+    }
+  
+    .resume-item h3 {
+      font-size: 1.1rem;
+    }
+  
+    .resume-item p {
+      font-size: 0.9rem;
+    }
+  }
+  

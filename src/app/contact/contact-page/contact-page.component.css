@@ -1,0 +1,93 @@
+/* Contenedor de la página de contacto */
+.contact-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  /* Encabezado "Contact" */
+  .contact-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .header-underline {
+    width: 80px;
+    height: 4px;
+    background-color: #2e609d;
+    margin-top: 5px;
+  }
+  
+  /* Estilo de los elementos de contacto */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-icon {
+    font-size: 2rem;
+    color: #2e609d;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .contact-details p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Diseño responsivo */
+  @media (max-width: 768px) {
+    .contact-info {
+      gap: 15px;
+    }
+  
+    .contact-header h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-icon {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-header h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
