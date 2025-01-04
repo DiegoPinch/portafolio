@@ -62,11 +62,6 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.sidenav a:hover {
-  background-color: #1f2a37;
-  border-radius: 20px;
-}
-
 .sidenav i {
   margin-right: 12px;
 }
@@ -89,28 +84,35 @@
   margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 10px;
-}
-
-.social-btn i {
-  font-size: 18px;
+  gap: 5px;
 }
 
 
 h1, p {
   font-family: 'Poppins', sans-serif;
 }
+
+/* Estilos de los iconos de redes sociales */
 .social-btn {
   background-color: #2e609d;
   color: white;
-  width: 40px;
-  height: 40px;
+  width: 5px;
+  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-btn:hover {
+  background-color: #1e3d6c;
+}
+
+.social-btn i {
+  font-size: 18px; /* Ajusta el tamaño del icono */
 }
 
 /* Estilos para el contenido principal */
