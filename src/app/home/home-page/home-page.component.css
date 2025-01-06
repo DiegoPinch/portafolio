@@ -96,8 +96,8 @@ h1, p {
 .social-btn {
   background-color: #2e609d;
   color: white;
-  width: 5px;
-  height: 16px;
+  width: 10px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +112,7 @@ h1, p {
 }
 
 .social-btn i {
-  font-size: 18px; /* Ajusta el tamaño del icono */
+  font-size: 20px; /* Ajusta el tamaño del icono */
 }
 
 /* Estilos para el contenido principal */
