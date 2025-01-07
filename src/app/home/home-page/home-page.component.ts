@@ -22,5 +22,28 @@ export class HomePageComponent  {
     { label: 'Portfolio', link: '/portfolio', icon: 'fas fa-briefcase' },
     { label: 'Contact', link: '/contact', icon: 'fas fa-envelope' }
   ];
+
+  // Efecto de particulas
+  particlesOptions = {
+    background: {
+      color: {
+        value: "#000000", 
+      },
+    },
+    particles: {
+      number: {
+        value: 100, // Número de partículas
+      },
+      color: {
+        value: "#ffffff", // Color de las partículas
+      },
+      size: {
+        value: 5, // Tamaño de las partículas
+      },
+      move: {
+        speed: 2, // Velocidad de movimiento
+      },
+    },
+  };
 }
 
