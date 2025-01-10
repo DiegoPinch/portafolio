@@ -107,6 +107,26 @@
     background-color: #1b4578;
   }
   
+  .btn-view-image {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    text-decoration: none; 
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-view-image i {
+    font-size: 15px; 
+  }
+
+  
   @media (max-width: 768px) {
     .portfolio-grid {
       grid-template-columns: 1fr 1fr;

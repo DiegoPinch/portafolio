@@ -121,6 +121,17 @@ h1, p {
   width: calc(100% - 300px);
 }
 
+/* 
+estilos de menu */
+.sidenav a:hover {
+  color: #007bff; 
+  transform: scale(1.05); 
+}
+
+.sidenav a:hover i {
+  transform: rotate(20deg); 
+}
+
 @media screen and (max-width: 768px) {
   .sidenav {
     transform: translateX(-300px); 
